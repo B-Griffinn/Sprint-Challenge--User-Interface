@@ -62,45 +62,82 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+        /* End of MeyerWeb */
+        /* Begin Code */
+
 p {
     line-height: 1.4;
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+    /* width: 800px;
+    margin: 0 auto; */
+    margin:auto;
+	width: 60%;
+	text-align: left;
 }
+
+        /* BEGIN Nav Bar */
+.header nav{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+     margin-bottom: 20px;
+    /* border: 1px solid red; */
+}
+    /* Lambda Nav Image */
+    .nav-img{
+        margin-top: 10px;
+    }
+
+    /* Nav bar continued */
+.header nav a{
+    margin: 30px 30px 26px 50px;
+	color: black;
+    text-decoration: none;
+}
+        /* Banner Image */
+.banner-img{
+    /* width: 100%; */
+    margin: 0px 50px 0px 600px;
+} 
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    /* border: 1px solid red; */
 }
-
+    /* The Future & The Past Container */
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    /* border: 1px solid red;  */
 }
-
+    /*All 10 Boxes Container  */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    /* border: 1px solid red;  */
 }
-
+    /* Why did it have to be boxes Spacing */
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    /* border: 1px solid red; */
 }
-
+    /* Just the 10 boxes container */
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    /* border: 1px solid red; */
 }
-
+    /*All 10 Boxes Display  */
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -110,25 +147,80 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* border: 1px solid red; */
 }
 
+        /* BOX COLORS */
+.middle-content #box1 {
+    background-color: teal;
+}
+.middle-content #box2 {
+    background-color: gold;
+}
+.middle-content #box3 {
+    background-color:cadetblue;
+}
+.middle-content #box4 {
+    background-color: coral;
+}
+.middle-content #box5 {
+    background-color: crimson;
+}
+.middle-content #box6 {
+    background-color: forestgreen;
+}
+.middle-content #box7 {
+    background-color: darkorchid;
+}
+.middle-content #box8 {
+    background-color: hotpink;
+}
+.middle-content #box9 {
+    background-color: indigo;
+}
+.middle-content #box10 {
+    background-color: dodgerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* That's   No  Moon Container */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    /* border: 1px solid red; */
 }
-
+    /*That's    No  Moon Padding  */
 .bottom-content .text-container {
     padding-right: 4%;
+    /* border: 1px solid red; */
 }
-
+    /* Just the moon container */
 .bottom-content .text-container:last-child {
     padding-right: 0;
+    /* border: 1px solid red; */
 }
-
+    /*Footer Container  */
 footer {
     width: 100%;
     background: black;
+    /* border: 1px solid red; */
 }
 
 footer nav {
@@ -138,9 +230,11 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    /* border: 1px solid red; */
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    /* border: 1px solid red; */
 }
