@@ -156,32 +156,112 @@ p {
 .middle-content #box1 {
     background-color: teal;
 }
+.middle-content #box1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid teal;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer; 
+}
 .middle-content #box2 {
     background-color: gold;
+}
+.middle-content #box2:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid gold;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer; 
 }
 .middle-content #box3 {
     background-color:cadetblue;
 }
+.middle-content #box3:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid cadetblue;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer; 
+}
 .middle-content #box4 {
     background-color: coral;
+}
+.middle-content #box4:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid coral;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer; 
 }
 .middle-content #box5 {
     background-color: crimson;
 }
+.middle-content #box5:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid crimson;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer; 
+}
 .middle-content #box6 {
     background-color: forestgreen;
+}
+.middle-content #box6:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid forestgreen;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer; 
 }
 .middle-content #box7 {
     background-color: darkorchid;
 }
+.middle-content #box7:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid darkorchid;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer; 
+}
 .middle-content #box8 {
     background-color: hotpink;
+}
+.middle-content #box8:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid hotpink;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer; 
 }
 .middle-content #box9 {
     background-color: indigo;
 }
+.middle-content #box9:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid indigo;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer; 
+}
 .middle-content #box10 {
     background-color: dodgerblue;
+}
+.middle-content #box10:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid dodgerblue;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer; 
 }
 
 /* That's   No  Moon Container */
