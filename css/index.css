@@ -98,8 +98,10 @@ p {
 }
         /* Banner Image */
 .banner-img{
+    display: flex;
+    justify-content: center;
     /* width: 100%; */
-    margin: 0px 50px 0px 600px;
+    /* margin: 0px 50px 0px 600px; */
 } 
 
 .top-content {
@@ -182,24 +184,7 @@ p {
     background-color: dodgerblue;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* That's   No  Moon Container */
+/* That's   No  Moon Container */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
