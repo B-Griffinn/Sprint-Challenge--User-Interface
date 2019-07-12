@@ -202,3 +202,36 @@ h1, h2, h3, h4, h5 {
     color: white;
     text-decoration: none;
 }
+
+button:hover {
+        background-color: black;
+        color: white;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer; 
+    }
+
+    /* .header nav a:hover{
+        background-color: grey;
+        color: black;
+        border: 1px solid grey; 
+        -webkit-transition-duration: 0.1s;
+        transition-duration: 0.1s;
+        cursor: pointer; 
+    } */
+
+    .home:hover{
+        background-color: grey;
+        color: white;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer; 
+    }
+
+    .foot-home:hover {
+        background-color: white;
+        color: black;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer;  
+    }
