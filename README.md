@@ -34,13 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+ General Semantics can be viewed as a meaning of a subject. This subject can be a word or even a phrase, but is not limited to those two.
+Semantic HTML would be the meaning of your HTML elements. For example you may have multiple <section> elements organizing your HTML, but what IS each section referring to?
+If I have a <section> for the the Navigation bar of my web page I would want to classify or ID that section as the Navigation bar of my page so I can style or manipulate that section by its self. 
+This goes beyond personal recognition. What if I need help with my code, or I sell my code, or what If I need to come back and refactor my own code?
+My code needs to be legible for myself and others and that is why Semantic HTML is so important.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+ Display: block --> Block elements do not sit inline but break past them. They will take up as much horizontal space that is given to them.
+Display: inline --> Inline Elements will display one after the other in the direction they are set to, whether this is horizontal or vertical.
+I like to imagine writing on lined paper. Writing on the same LINE is inline display. I could turn that paper sideways and the elements are still inline. 
 
 3. What are the 4 areas of the box model?
 
+In a box model you always have the Content (elements), Padding (area directly around elements), a Border (surrounds the padding), and lastly a Margin in that order starting from the inside and moving out.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+ Align-items: center will work on the cross (y) axis.
+This cross axis can be changed if the main axis direction is changed. To sum it up, it does not always APPEAR to be the ' y ' axis as you view in mathematics.
+
 5. Explain why git is valuable to a team of developers.
+
+ Git is important because it allows developers to share and contribute to a code in an asynchronous way, menaing I can work on the same code as you without affecting your version of the code. 
+I like the think of git as the Opposite of a Google Shared doc when multiple people are working at once and your page will not stop jumping around.
+It is also like a time machine if you ever need to revert code in case there is an error, bug or simply lost code.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
